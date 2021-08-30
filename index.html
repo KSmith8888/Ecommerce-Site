@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./style.css'>
+    <title>E-Commerce Site</title>
+</head>
+<body>
+    <div id='container'>
+        <section id='banner'>
+            <h1>E-Commerce Site</h1>
+            <dialog id='cartBox'>
+                <h3>Your Items</h3>
+                <button>Check Out</button><button id='closeBox' onclick='closeCartBox()'>Close</button>
+                <p id='cartTotal'>Total: $</p>
+            </dialog>
+            <a href='#' id='shopLink'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shopping_cart_icon.svg/640px-Shopping_cart_icon.svg.png' id='shoppingCart' alt='Shopping Cart' onclick='openCartBox()'></a>
+        </section>
+        <section id='nav'>
+            <a href='#' id='link1'>Link 1</a>
+            <a href='#' id='link2'>Link 2</a>
+            <a href='#' id='link3'>Link 3</a>
+            <a href='#' id='link4'>Link 4</a>
+            <a href='#' id='link5'>Link 5</a>
+            <a href='#' id='link6'>Link 6</a>
+        </section>
+        <section id='intro'>
+            <h2>This is our company!</h2>
+            <p>Info about the company Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem repudiandae, ipsam facilis a repellat harum id obcaecati est animi accusamus deleniti. Consequuntur amet iure dicta, mollitia itaque unde facere deleniti, nostrum ratione soluta, laborum debitis. Eveniet inventore suscipit tenetur laborum reprehenderit, nisi quisquam animi similique fugit corrupti minus, voluptates praesentium!</p>
+        </section>
+            <div id='product1' class='product'><img src='https://cdn.pixabay.com/photo/2013/12/22/03/29/tea-232118_960_720.jpg' class='prodImg'><div class='prodDesc'><h4>Great Brand Coffee Maker $25</h4><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis autem facilis hic aliquid accusantium sunt magnam veniam, excepturi aut accusamus.</p><button id='addProd1'>Add to Cart</button></div></div>
+            <div id='product2' class='product'><img src='https://cdn.pixabay.com/photo/2017/06/19/18/03/refrigerator-2420419_960_720.png' class='prodImg'>
+            <div class='prodDesc'>
+            <h4>Retro Fridge $899</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis autem facilis hic aliquid accusantium sunt
+            magnam veniam, excepturi aut accusamus.</p><button id='addProd2'>Add to Cart</button>
+            </div></div>
+            <div id='product3' class='product'></div>
+            <div id='product4' class='product'></div>
+            <div id='product5' class='product'></div>
+            <div id='product6' class='product'></div>
+    </div>
+    <script src='./script.js'></script>
+</body>
+</html>
