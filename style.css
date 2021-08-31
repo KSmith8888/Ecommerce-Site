@@ -10,6 +10,7 @@ body {
   grid-template-rows: 15vh 5vh 40vh 50vh 50vh;
   padding-left: 2vw;
   width: 97vw;
+  background: grey;
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
   grid-template-columns: 11% 14% 14% 14% 14% 14% 14%;
   grid-row: 2/2;
   grid-column: 1 / 8;
-  background: blue;
+  background: rgb(28, 28, 143);
   padding-top: 0.5em;
   margin-left: -1.5vw;
 }
@@ -139,8 +140,8 @@ a {
 }
 
 .product {
-  background: whitesmoke;
-  border: 2px solid black;
+  background: rgba(186, 221, 191, 0.856);
+  border: 2px solid rgb(28, 28, 143);
   padding: 2em;
   border-radius: 3em;
   height: 35vh;
