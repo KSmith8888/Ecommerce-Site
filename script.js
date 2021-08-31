@@ -56,6 +56,15 @@ addProd2.addEventListener('click', () => {
     cartBox.appendChild(fridge);
 });
 
+let addProd3 = document.getElementById('addProd3');
+
+addProd3.addEventListener('click', () => {
+    
+    total += products[2].price;
+    cartTotal.textContent = `Total $${total}`;
+    cartBox.insertAdjacentHTML('beforeend', `<p>Great Value Toaster $15</p>`);
+});
+
 function closeCartBox() {
    cartBox.close();
 }
