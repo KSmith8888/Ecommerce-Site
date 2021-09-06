@@ -191,7 +191,7 @@ body {
     #container {
       display: grid;
       grid-template-columns: 32% 32% 32%;
-      grid-template-rows: 20vh 20vh 25vh 50vh 50vh 50vh 50vh 50vh 50vh;
+      grid-template-rows: 25vh 20vh 30vh 60vh 60vh 60vh 60vh 60vh 60vh;
       padding-left: 3vw;
       width: 100%;
       background: rgba(10, 34, 85, 0.274);
@@ -249,7 +249,7 @@ body {
       grid-row: 3/3;
       font-size: 1.5em;
       width: 95%;
-      padding: 1em;
+      padding: .75em;
     }
     #product1 {
       grid-row: 5/5;
