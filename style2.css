@@ -207,7 +207,7 @@ body {
     #con2 {
       display: grid;
       grid-template-columns: 32% 32% 32%;
-      grid-template-rows: 20vh 20vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh;
+      grid-template-rows: 20vh 20vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh;
       padding-left: 3vw;
       width: 100%;
       background: rgba(10, 34, 85, 0.274);
