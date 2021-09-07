@@ -172,6 +172,33 @@ body {
     border: 2px solid rgb(40, 88, 128);
   }
 
+  #con3 {
+    display: grid;
+    grid-template-columns: 32vw 32vw 32vw;
+    grid-template-rows: 15vh 5vh 80vh;
+    padding-left: 2vw;
+    width: 97vw;
+    background: rgba(72, 79, 136, 0.342);
+  }
+
+  #formSection {
+    margin-top: 2em;
+    border: 2px solid rgb(28, 28, 143);
+    background:rgb(40, 88, 128);
+    color:lightgray;
+    text-align: center;
+  }
+
+  input {
+    margin: 2em 1em 2em 1em;
+  }
+
+  textarea {
+    margin-top: 2em;
+    height: 10vh;
+    width: 20vw;
+  }
+
   #con4 {
     display: grid;
     grid-template-columns: 32vw 32vw 32vw;
