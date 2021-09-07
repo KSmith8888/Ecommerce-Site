@@ -32,16 +32,16 @@
   action="https://formspree.io/f/mjvjjlgr"
   method="POST">
               <label for='formName'>Name (required):
-              <input type='text' id='formName' required>
+              <input type='text' id='formName' required name='formName'>
               </label><br>
-              <label for='formEmail'>Email (required):
+              <label for='formEmail' name='formEmail'>Email (required):
               <input type="email" required id='formEmail'>
               </label><br>
               <label for='formPhone'>Phone (optional):
-              <input type='number'>
+              <input type='number' name='formPhone'>
               </label><br>
               <label for='formMessage'>Your message:</label><br>
-              <textarea id="formMessage"></textarea><br>
+              <textarea id="formMessage" name='formMessage'></textarea><br>
               <button type="submit">Send</button>
             </form>
         </section>
