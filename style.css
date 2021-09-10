@@ -187,6 +187,7 @@ body {
     background:rgb(40, 88, 128);
     color:lightgray;
     text-align: center;
+    height: 70%;
   }
 
   input {
@@ -199,36 +200,23 @@ body {
     width: 20vw;
   }
 
-  #con4 {
+  #con3 {
     display: grid;
     grid-template-columns: 32vw 32vw 32vw;
-    grid-template-rows: 15vh 5vh 50vh 30vh 100vh 5vh;
+    grid-template-rows: 15vh 5vh 120vh;
     padding-left: 2vw;
     width: 97vw;
     background: rgba(72, 79, 136, 0.342);
+    text-align: center;
   }
 
-  #censusSection {
+  #maintenanceSection {
+    background-image: url('./images/maintenance\ image.png');
+    grid-column: 1/4;
     grid-row: 3/3;
-    grid-column: 1/4;
-    width: 100%;
-  }
-
-  #apod {
-    grid-row: 4/4;
-    grid-column: 1/4;
-  }
-
-  #apodPhoto {
-    grid-row: 5/5;
-    grid-column: 1/4;
-    width: 80%;
-    height: 100%;
-  }
-
-  #copyright {
-    grid-row: 6/6;
-    grid-column: 1/1;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 85%;
   }
 
   @media (max-width: 700px) {
