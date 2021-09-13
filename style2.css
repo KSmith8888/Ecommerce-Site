@@ -204,10 +204,15 @@ body {
   }
 
   @media (max-width: 700px) {
+    body {
+    width: 102vw;
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+   }
     #con2 {
       display: grid;
       grid-template-columns: 32% 32% 32%;
-      grid-template-rows: 20vh 20vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh;
+      grid-template-rows: 20vh 20vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh 60vh;
       padding-left: 3vw;
       width: 100%;
       background: rgba(10, 34, 85, 0.274);
@@ -217,6 +222,14 @@ body {
       width: 50vw;
       background: rgb(166, 189, 219);
     }
+      
+    #shoppingCart {
+    height: 3em;
+    width: 3em;
+    position: fixed;
+    right: 4vw;
+    top: 4vh;
+   }
     
     .banner {
       grid-row: 1/1;
@@ -392,7 +405,7 @@ body {
     }
     .prodImg {
       grid-column: 1/1;
-      height: 80%;
+      height: 75%;
       width: 80%;
     }
     
