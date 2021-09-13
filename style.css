@@ -221,7 +221,7 @@ body {
 
   @media (max-width: 700px) {
       body {
-          width: 102vw;
+          width: 100vw;
           margin-left: 0.5vw;
           margin-top: 0.5vh;
       }
@@ -240,8 +240,8 @@ body {
     }
       
     #shoppingCart {
-    height: 4em;
-    width: 4em;
+    height: 3em;
+    width: 3em;
     position: fixed;
     right: 4vw;
     top: 4vh;
